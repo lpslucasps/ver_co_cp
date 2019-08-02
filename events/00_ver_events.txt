@@ -488,4 +488,40 @@ country_event = {
 			country_event = { id = vermain.14 }
 		}
 	}
+
+
+		option = { # Transform into Blood Tributary (slaver or barbaric)
+			name = ver.100.blood
+			custom_tooltip = ver.100.blood.tooltip
+			trigger = {
+				OR = {
+					has_civic = civic_barbaric_despoilers
+					has_civic = civic_slaver_guilds
+					has_civic = civic_reeducated_labor
+				}
+				NOT = { any_subject = { is_subject_type = verblood } }
+			}
+			ai_chance = {
+				factor = 100
+				modifier = {
+					factor = 0
+					NOR = {
+						has_civic = civic_barbaric_despoilers
+						has_civic = civic_slaver_guilds
+						has_civic = civic_reeducated_labor
+					}
+				}
+			}
+			hidden_effect = {
+				from = {
+					set_subject_of = {
+						who = ROOT
+						subject_type = verblood
+					}
+					save_event_target_as = ver_blood_tributary
+				}
+				country_event = { id = ver.40 }
+			}
+		}
+
 }
