@@ -138,10 +138,11 @@ verautonomous = {
 						has_ethic = ethic_capitalism
 						has_ethic = ethic_fanatic_capitalism
 						has_civic = civic_machine_servitor
+						has_valid_civic = civic_feudal_realm
 					}
 				}
 			}
-			country_event = { id = ver.11 }
+			country_event = { id = ver.11 days = 1 }
 			break = yes
 		}
 	}
@@ -279,10 +280,11 @@ verbeneficiary = {
 						is_xenophile = no
 						has_ethic = ethic_green
 						has_ethic = ethic_fanatic_green
+						has_valid_civic = civic_feudal_realm
 					}
 				}
 			}
-			country_event = { id = ver.11 }
+			country_event = { id = ver.11 days = 1 }
 			break = yes
 		}
 	}
@@ -428,10 +430,11 @@ verjrpartner = {
 						is_materialist = no
 						has_ethic = ethic_industrial
 						has_ethic = ethic_fanatic_industrial
+						has_valid_civic = civic_feudal_realm
 					}
 				}
 			}
-			country_event = { id = ver.11 }
+			country_event = { id = ver.11 days = 1 }
 			break = yes
 		}
 	}
@@ -574,10 +577,11 @@ verpuppet = {
 						is_authoritarian = no
 						has_ethic = ethic_socialism
 						has_ethic = ethic_fanatic_socialism
+						has_valid_civic = civic_feudal_realm
 					}
 				}
 			}
-			country_event = { id = ver.11 }
+			country_event = { id = ver.11 days = 1 }
 			break = yes
 		}
 	}
@@ -722,10 +726,11 @@ verserf = {
 						is_xenophobe = no
 						has_ethic = ethic_elitist
 						has_ethic = ethic_fanatic_elitist
+						has_valid_civic = civic_feudal_realm
 					}
 				}
 			}
-			country_event = { id = ver.11 }
+			country_event = { id = ver.11 days = 1 }
 			break = yes
 		}
 	}
@@ -863,10 +868,11 @@ versister = {
 						is_egalitarian = no
 						has_ethic = ethic_pluralist
 						has_ethic = ethic_fanatic_pluralist
+						has_valid_civic = civic_feudal_realm
 					}
 				}
 			}
-			country_event = { id = ver.11 }
+			country_event = { id = ver.11 days = 1 }
 			break = yes
 		}
 	}
@@ -1007,7 +1013,7 @@ verblood = {
 					}
 				}
 			}
-			country_event = { id = ver.11 }
+			country_event = { id = ver.11 days = 1 }
 			break = yes
 		}
 		if = {
@@ -1020,7 +1026,7 @@ verblood = {
 				who = from
 				subject_type = vassal
 			}
-			country_event = { id = ver.11 }
+			country_event = { id = ver.11 days = 1 }
 			break = yes
 		}
 	}
